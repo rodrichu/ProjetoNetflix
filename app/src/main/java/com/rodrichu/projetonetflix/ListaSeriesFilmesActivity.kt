@@ -11,10 +11,10 @@ import androidx.appcompat.app.AppCompatActivity
 class ListaSeriesFilmesActivity : AppCompatActivity()
 {
     private lateinit var textMaisDetalhes: TextView
-    /*private lateinit var darkWindsDetalhes: ImageView
+    private lateinit var darkWindsDetalhes: ImageView
     private lateinit var loveSpectrumDetalhes: ImageView
     private lateinit var bloodZeusDetalhes: ImageView
-    private lateinit var dragonPrinceDetalhes: ImageView*/
+    private lateinit var dragonPrinceDetalhes: ImageView
     private lateinit var frieren: Serie
     private lateinit var darkWinds: Serie
     private lateinit var loveSpectrum: Serie
@@ -67,7 +67,7 @@ class ListaSeriesFilmesActivity : AppCompatActivity()
             startActivity(intent) // Agora iniciamos a Activity
         }
 
-        /*
+
 
         this.inicializarComponentesInterface()
 
@@ -87,6 +87,7 @@ class ListaSeriesFilmesActivity : AppCompatActivity()
 
         this.inicializarComponentesInterface()
 
+
         bloodZeusDetalhes.setOnClickListener {
             val intent = Intent(this, DetalhesActivity::class.java) // Agora chamando a Activity correta
             intent.putExtra("SERIE", bloodZeus) // Primeiro passamos o objeto
@@ -95,13 +96,13 @@ class ListaSeriesFilmesActivity : AppCompatActivity()
 
         this.inicializarComponentesInterface()
 
+
         dragonPrinceDetalhes.setOnClickListener {
             val intent = Intent(this, DetalhesActivity::class.java) // Agora chamando a Activity correta
             intent.putExtra("SERIE", dragonPrince) // Primeiro passamos o objeto
             startActivity(intent) // Agora iniciamos a Activity
         }
 
-    }*/
 
 
     }
@@ -109,12 +110,10 @@ class ListaSeriesFilmesActivity : AppCompatActivity()
     private fun inicializarComponentesInterface()
     {
         textMaisDetalhes = findViewById(R.id.irParaDetalhes)
-        /* darkWindsDetalhes = findViewById(R.id.darkWindsDetalhes)
+        darkWindsDetalhes = findViewById(R.id.darkWindsDetalhes)
         loveSpectrumDetalhes = findViewById(R.id.loveSpectrumDetalhes)
         bloodZeusDetalhes = findViewById(R.id.bloodZeusDetalhes)
         dragonPrinceDetalhes = findViewById(R.id.dragonPrinceDetalhes)
-
-     */
     }
 
 }
