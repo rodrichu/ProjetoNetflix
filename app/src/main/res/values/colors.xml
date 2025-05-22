@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    -------NETFLIX COLORS-------
+
+    <color name="black_background">#0D0E16</color>
+    <color name="netflix_red">#D81F26</color>
+    <color name="red_variant">#E50914</color>
+    <color name="hints">#80837F7F</color>
+    <color name="marca_texto">#80000000</color>
+
+
+</resources>
